@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexDev</title>
+    <!-- Enlace para el logo en la pestaña del navegador -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJz48cmVjdCB4PScwJyB5PScwJyB3aWR0aD0nMTAwJyBoZWlnaHQ9JzEwMCcgcng9JzIwJyBmaWxsPScjMDAwMDAwJyAvPjxwYXRoIGQ9J00gMjIgNzUgTCAyMiA0NSBMIDUwIDE4IEwgNzggNDUgTCA3OCA3NSBMIDUwIDc1IEwgNTAgMTgnIGZpbGw9J25vbmUnIHN0cm9rZT0nI2I1ZmYwMCcgc3Ryb2tlLXdpZHRoPScxMScgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbGluZWpvaW49J3JvdW5kJy8+PGNpcmNsZSBjeD0nNTAnIGN5PSc3NScgcj0nNycgZmlsbD0nI2ZmZmZmZicvPjwvc3ZnPg==">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <!-- Isotipo Minimalista ApexDev (Monolínea + Base Negra) -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="38" height="38" style="display: inline-block; vertical-align: middle;">
+                    <rect x="12" y="12" width="76" height="76" rx="18" fill="#000000" />
+                    <rect x="12" y="12" width="76" height="76" rx="18" fill="none" stroke="#161616" stroke-width="1.5" />
+                    <path d="M 30 70 L 30 45 L 50 27 L 70 45 L 70 70 L 50 70 L 50 27" fill="none" stroke="#b5ff00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="50" cy="70" r="4" fill="#ffffff"/>
+                </svg>
+                <span class="brand-text">Apex<span class="highlight">Dev.</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <button class="btn-talk">Contactame</button>
+        </nav>
+    </header>
+
+    <main class="hero-container">
+        <section class="hero-left">
+            <h1 class="hero-title">Hola, soy <br><span class="highlight">Aaron</span></h1>
+            
+            <div class="typewriter-box">
+                <span id="typewriter" class="typewriter-text"></span>
+                <span class="typewriter-cursor">|</span>
+            </div>
+
+            <div class="cta-group">
+                <a href="https://github.com/KARLDS284" target="_blank" rel="noopener noreferrer" class="btn-primary">Ir a GitHub<span class="arrow">→</span></a>
+            </div>
+
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <div class="metric-value"><span>+1</span></div>
+                    <div class="metric-label">Proyectos Completados</div>
+                </div>
+                <div class="metric-item">
+                    <img src="logo.unermb.png" alt="UNERMB" class="unermb-logo">
+                    <div class="metric-label">PNF en Informática</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hero-right">
+            <img src="mi-perfil.png" alt="Perfil" class="profile-image">
+            
+            <div class="tech-sidebar">
+                <span class="tech-sidebar-title">Stack Tecnológico</span>
+                <div class="tech-badge"><i class="fab fa-github"></i></div>
+                <div class="tech-badge"><i class="fab fa-js"></i></div>
+                <div class="tech-badge"><i class="fab fa-css3-alt"></i></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
